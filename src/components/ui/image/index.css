@@ -3,3 +3,15 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.carrousel {
+    aspect-ratio: 5/8;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.comparison {
+    aspect-ratio: 87/58;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

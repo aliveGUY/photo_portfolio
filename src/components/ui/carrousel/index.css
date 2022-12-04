@@ -1,0 +1,12 @@
+.slideshow-container {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.slide {
+    display: inline-block;
+}
+
+.carrousel_image {
+    height: 30vw;
+}

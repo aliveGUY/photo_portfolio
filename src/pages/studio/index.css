@@ -1,0 +1,16 @@
+.studio_title {
+    grid-column: 1/-1;
+    text-align: center;
+}
+
+.studio_carrusel {
+    grid-column: 1/5;
+}
+
+.studio_text {
+    grid-column: 5/9;
+}
+
+.studio_comparison {
+    grid-column: 1/-1;
+}

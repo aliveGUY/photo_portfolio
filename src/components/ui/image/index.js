@@ -1,5 +1,5 @@
 import './index.css'
 
-// type = [headline, ]
-const Img = ({ image, type }) => <div className={type} style={{ backgroundImage: `url(${image})` }} />
+// type = [headline, carrousel, comparison ]
+const Img = ({ image, type, className }) => <div className={`${type} ${className}`} style={{ backgroundImage: `url(${image})` }} />
 export default Img

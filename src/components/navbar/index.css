@@ -1,0 +1,43 @@
+.list {
+    display: flex;
+    padding: 0;
+    list-style: none;
+}
+
+.item {
+    display: flex;
+    margin-left: -25px;
+    background: green;
+    align-items: center;
+    justify-content: center;
+}
+
+.item a {
+    white-space: nowrap;
+    padding: 5px 20px;
+    text-decoration: none;
+}
+
+.list .item:first-child {
+    background: #BEB4B3;
+    margin-left: 0;
+}
+
+.list .item:first-child a {
+    color: #4D4741;
+}
+
+.list .item:nth-child(2) {
+    background: #F9F7F7;
+}
+
+.list .item:nth-child(2) a{
+    color: #4D4741;
+}
+
+.list .item:nth-child(3) {
+    background: #4D4741;
+}
+.list .item:nth-child(3) a {
+    color: #F9F7F7;
+}

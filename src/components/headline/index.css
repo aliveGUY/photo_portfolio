@@ -1,0 +1,7 @@
+.text {
+    grid-column: 1/5;
+}
+
+.photo {
+    grid-column: 5/9;
+}
