@@ -3,14 +3,16 @@
     text-align: center;
 }
 
-.studio_carrusel {
-    grid-column: 1/5;
-}
-
-.studio_text {
-    grid-column: 5/9;
-}
-
-.studio_comparison {
+.studio_comparison, .studio_carrusel, .studio_text {
     grid-column: 1/-1;
+}
+
+@media screen and (min-width: 600px) {
+    .studio_carrusel {
+        grid-column: 1/5;
+    }
+    
+    .studio_text {
+        grid-column: 5/9;
+    }
 }

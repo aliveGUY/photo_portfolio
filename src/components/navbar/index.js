@@ -1,9 +1,14 @@
 import './index.css'
 import NavItem from "../ui/nav_item"
+import { useMatch } from 'react-router';
 import { useState } from 'react';
 
 const Navbar = () => {
-  const [index, setindex] = useState(0)
+  const _0 = useMatch('/') 
+  const _1 = useMatch('/individual')
+  const _2 = useMatch('/studio')
+  const _default = _0 ? 0 : _1 ? 1 : _2 ? 2 : 0
+  const [index, setindex] = useState(_default)
   const indeces = [
     [10, 5, 0],
     [5, 10, 0],

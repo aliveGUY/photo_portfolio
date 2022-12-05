@@ -1,10 +1,12 @@
 import Container from "../../components/ui/container"
-
+import Background from "../../components/ui/background"
 const Film = () => {
   return (
-    <Container>
-      <h2>Film</h2>
-    </Container>
+    <Background color="#BEB4B3">
+      <Container>
+        <h2>Film</h2>
+      </Container>
+    </Background>
   )
 }
 

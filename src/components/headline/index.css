@@ -1,7 +1,28 @@
 .text {
-    grid-column: 1/5;
+    color: #4D4741;
 }
 
-.photo {
-    grid-column: 5/9;
+.text h1 {
+    font-family: 'PT Serif';
+    font-weight: 400;
+}
+
+.text p {
+    font-family: 'Oranienbaum';
+    font-weight: 400;
+    font-size: 19px;
+}
+
+.photo, .text {
+    grid-column: 1/-1;
+}
+
+@media screen and (min-width: 600px) {
+    .text {
+        grid-column: 1/5;
+    }
+    
+    .photo {
+        grid-column: 5/9;
+    }
 }
