@@ -8,15 +8,15 @@ import Individual from "./pages/individual";
 
 function App() {
   return (
-    <>
-    <Navbar/>
-    <Routes>
-      <Route path='/' element={<Film/>} />
-      <Route path='/studio' element={<Studio/>} />
-      <Route path='/individual' element={<Individual/>} />
-      <Route path='*' element={<_404/>} />
-    </Routes>
-    </>
+    <div className="router_wrapper">
+      <Navbar />
+      <Routes>
+        <Route path='/' element={<Film />} />
+        <Route path='/studio' element={<Studio />} />
+        <Route path='/individual' element={<Individual />} />
+        <Route path='*' element={<_404 />} />
+      </Routes>
+    </div>
   );
 }
 

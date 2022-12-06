@@ -1,14 +1,14 @@
 .list {
     display: flex;
-    padding: 0;
+    position: absolute;
     list-style: none;
-    transform: translateY(1px);
-    justify-content: center;
+    transform: translateY(-39px);
 }
 
 .item {
     display: flex;
     margin-left: -25px;
+    height: 40px;
     background: green;
     align-items: center;
     justify-content: center;
@@ -16,7 +16,8 @@
 
 .item a {
     white-space: nowrap;
-    padding: 5px 20px;
+    text-align: center;
+    padding: 0 25px;
     text-decoration: none;
 }
 

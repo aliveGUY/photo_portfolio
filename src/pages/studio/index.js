@@ -18,7 +18,7 @@ const Studio = () => {
   const comparison = [before, after]
   return (
     <Background image={background}>
-      <Background color="#4D4741" opacity={0.95}>
+      <Background color="4D4741" opacity={0.95}>
         <Container>
           <Grid>
             <h2 className="studio_title">Студійні Фотосесії</h2>
@@ -31,7 +31,7 @@ const Studio = () => {
           </Grid>
         </Container>
       </Background>
-      <Background color="#BEB4B3" opacity={0.95}>
+      <Background color="BEB4B3" opacity={0.95}>
         <Container>
           <Grid>
             <h2 className="studio_title">Обробка Фото</h2>

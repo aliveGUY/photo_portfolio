@@ -14,12 +14,12 @@ const NavItem = ({ path, children, index, onClick }) => {
       });
     }
   }, []);
-  const length = dimensions.width - 25
+  const length = dimensions.width - 35
   const height = dimensions.height
 
   const height_half = height / 2
-  const one_fourth = height / 4
-  const three_fourth = one_fourth * 3
+  const one_fourth = height / 6
+  const three_fourth = one_fourth * 5
 
   return (
     <li ref={targetRef} className={`item ${index === 10 ? 'selected' : ''}`} style={{zIndex: index, clipPath: `path('M 0 ${height} C ${one_fourth} ${height} ${height_half} ${three_fourth} ${height_half} ${height_half} C ${height_half} ${one_fourth} ${three_fourth} 0 ${height} 0 L ${length} 0 C ${length + one_fourth} 0 ${length + height_half} ${one_fourth} ${length + height_half} ${height_half} C ${length + height_half} ${three_fourth} ${length + three_fourth} ${height} ${length + height} ${height}')` }}>
